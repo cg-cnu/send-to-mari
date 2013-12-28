@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Service
+ServiceType=KonqPopupMenu/Plugin
+MimeType=image/*;
+Actions=sendToMari;
+
+[Desktop Action sendToMari]
+Name=Send To Mari
+Icon=/usr/app/mari/mari-2.5v1/Media/Icons/Mari.16x16.png
+Exec=python /path/to/the/script/send.py %N
