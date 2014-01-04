@@ -7,4 +7,4 @@ Actions=sendToMari;
 [Desktop Action sendToMari]
 Name=Send To Mari
 Icon=/usr/app/mari/mari-2.5v1/Media/Icons/Mari.16x16.png
-Exec=python /path/to/the/script/send.py %N
+Exec=/home/*/Mari/Scripts/send.py %U
