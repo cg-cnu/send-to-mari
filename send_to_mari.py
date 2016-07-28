@@ -4,13 +4,13 @@ from telnetlib import Telnet
 import sys
 
 try:
-connection = Telnet('localhost', 6100)
-images = sys.argv[1:]
+	connection = Telnet('localhost', 6100)
+	images = sys.argv[1:]
 
-for image in images:
-	message = "mari.images.load('" + image + "')"
-	connection.write(message)
-	connection.write("\x04")
+	for image in images:
+		message = "mari.images.load('" + image + "')"
+		connection.write(message)
+		connection.write("\x04")
 except:
 	import Tkinter
 	import tkMessageBox
