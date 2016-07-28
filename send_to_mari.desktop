@@ -1,10 +1,10 @@
 [Desktop Entry]
 Type=Service
-ServiceType=KonqPopupMenu/Plugin
+ServiceTypes=KonqPopupMenu/Plugin
 MimeType=image/*;
-Actions=sendToMari;
+Actions=SendToMari
 
-[Desktop Action sendToMari]
+[Desktop Action SendToMari]
 Name=Send To Mari
-Icon=/usr/app/mari/mari-2.5v1/Media/Icons/Mari.16x16.png
-Exec=/home/*/Mari/Scripts/send.py %U
+Icon="~/Mari/Scripts/send-to-mari/mari.png"
+Exec="~/Mari/Scripts/send-to-mari/send_to_mari.py" %U
