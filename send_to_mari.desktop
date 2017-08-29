@@ -2,7 +2,7 @@
 Type=Service
 ServiceTypes=KonqPopupMenu/Plugin
 MimeType=image/*;
-Actions=SendToMari
+Actions=SendToMari;
 
 [Desktop Action SendToMari]
 Name=Send To Mari
