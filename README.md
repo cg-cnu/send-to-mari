@@ -13,8 +13,8 @@ Send images to mari directly from file browser.
 ## Usage
 
 + Launch mari.
-+ Enable command port.![CommadPort](https://raw.githubusercontent.com/cg-cnu/mariSublime/master/examples/CommandPort.16x16.png)
-+ if command port is enabled you will find a small plug icon in the bottom left corner of the viewport.
++ Enable command port using `mari.app.enableCommandPort( not ( mari.app.commandPortEnabled() ) )`
++ if command port is enabled you will find a small plug icon in the bottom left corner of the viewport. ![CommadPort](https://user-images.githubusercontent.com/2767425/80058701-22323f00-8569-11ea-9da2-43586931d9e2.png) 
 + Open Konqueror/Dolphin.
 + select image/images.
 + Right click > actions > Send To Mari.
